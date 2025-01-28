@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+
+        @font-face {
+            font-family: 'amador';
+            src: <link rel="stylesheet" href="https://use.typekit.net/bci0rcn.css">;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+       
+
+        body {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            display: flex;
+            gap: 20px;
+        }
+
+        .left-box, .right-box {
+            border: 2px solid rgba(0, 0, 0, 0);
+            padding: 40px;
+        }
+
+        .left-box {
+            flex: 1;
+            max-width: 400px;
+        }
+
+        .right-box {
+            flex: 1;
+        }
+
+        /* Rest of the CSS remains the same */
+        .name {
+            font-family: 'Amador', serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .section-title {
+            font-family: 'Amador', serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 32px;
+            margin: 30px 0 20px 0;
+            color: #000;
+        }
+
+        .section-title:first-child {
+            margin-top: 0;
+        }
+
+        .institution {
+            font-weight: 500;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .degree {
+            font-weight: 400;
+            margin-bottom: 5px;
+        }
+
+        .details {
+            font-size: 14px;
+            color: #444;
+            margin-bottom: 5px;
+        }
+
+        .job-title {
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .skill-item {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML content remains the same -->
+    <div class="left-box">
+        <h1 class="name">Isa Bentz</h1>
+        <div class="contact">isabentz.com      410.340.3866</div>
+    </div>
+
+    <div class="right-box">
+        <h2 class="section-title">Education</h2>
+        <div class="institution">Tulane University</div>
+        <div class="degree">Bachelor of Science Management</div>
+        <div class="details">Double Major: Marketing & Cognitive Studies</div>
+        <div class="details">Minor: Graphic Design</div>
+        <div class="details">Division 1 Collegiate Sailing</div>
+
+        <div class="institution">University of Colorado Boulder</div>
+        <div class="degree">Master's Degree</div>
+        <div class="details">Strategic Communications Design</div>
+
+        <h2 class="section-title">Experience</h2>
+        <div class="institution">National Food & Beverage Foundation</div>
+        <div class="job-title">Creative Director</div>
+        <div class="details">Designed and directed the visual and interactive aspects of the National Food & Beverage Foundation, forming visual identities for each pillar of the foundation: The Southern Food & Beverage Museum, Museum of the American Cocktail, the SoFAB Research Center, and Nitty Grits Media.</div>
+
+        <div class="institution">Electronic Arts</div>
+        <div class="job-title">Marketing Communications Strategy Intern</div>
+        <div class="details">Assisted strategists working across the EA Games portfolio to develop insights and strategic ideas that feed into the creative briefs for EA teams and help establish integrated, omni omni-channel marketing plans for their upcoming game, Skate.</div>
+
+        <h2 class="section-title">Awards</h2>
+        <div class="institution">2022 Silver ADDY</div>
+        <div class="details">Category: Event Branding</div>
+
+        <div class="institution">2022 ICSA National Championship</div>
+        <div class="details">1st place, Coed Fleet Race</div>
+
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">Illustrator</div>
+            <div class="skill-item">Lightroom</div>
+            <div class="skill-item">Photoshop</div>
+            <div class="skill-item">Figma</div>
+            <div class="skill-item">InDesign</div>
+            <div class="skill-item">Microsoft Suite</div>
+        </div>
+    </div>
+</body>
+</html>
